@@ -9,8 +9,8 @@ import { IoIosArrowUp } from 'react-icons/io';
 const ItemDescription = () => {
   const squares = () => {
     let squareItems = [];
-    for (let i = 0; i <= 7; i++) {
-      const border = i === 6;
+    for (let i = 0; i < 7; i++) {
+      const border = i === 5;
       squareItems.push(<Square key={i} border={border} />);
     }
     return squareItems;
