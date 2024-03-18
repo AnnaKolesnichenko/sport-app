@@ -1,13 +1,21 @@
 {
   "files": {
-    "main.css": "/sport-app/static/css/main.7acaea2f.css",
-    "main.js": "/sport-app/static/js/main.07d3183d.js",
+    "main.css": "/sport-app/static/css/main.61804d2e.css",
+    "main.js": "/sport-app/static/js/main.01eb5b47.js",
+    "static/media/main.jpg": "/sport-app/static/media/main.40556be4002246773099.jpg",
+    "static/media/fav_man1.jpg": "/sport-app/static/media/fav_man1.1747a6224799532e88b0.jpg",
+    "static/media/bag.svg": "/sport-app/static/media/bag.66ae1746ad639e22f3db6a688f4405e9.svg",
     "index.html": "/sport-app/index.html",
-    "main.7acaea2f.css.map": "/sport-app/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/sport-app/static/js/main.07d3183d.js.map"
+    "static/media/heart.svg": "/sport-app/static/media/heart.e6e1cd2ae91ab1d88436211d6c7c48b3.svg",
+    "static/media/search.svg": "/sport-app/static/media/search.88d53e1a8aa4c4bd24bf322060e7f311.svg",
+    "static/media/chevrons-down.svg": "/sport-app/static/media/chevrons-down.b98d0a0e1a2354c904f37904edabc976.svg",
+    "static/media/Arrow_1.svg": "/sport-app/static/media/Arrow_1.55335432f62b14f0750b8ff238c17f8e.svg",
+    "static/media/Arrow_2.svg": "/sport-app/static/media/Arrow_2.2dd36e8e4aa5e945f48ba8af0b5ce0c6.svg",
+    "main.61804d2e.css.map": "/sport-app/static/css/main.61804d2e.css.map",
+    "main.01eb5b47.js.map": "/sport-app/static/js/main.01eb5b47.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.61804d2e.css",
+    "static/js/main.01eb5b47.js"
   ]
 }
