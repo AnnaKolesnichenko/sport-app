@@ -1,4 +1,4 @@
-import "./ItemInfo.scss";
+import './ItemInfo.scss';
 
 const ItemInfo = () => {
   return (

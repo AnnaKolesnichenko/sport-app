@@ -1,8 +1,8 @@
-import "./ItemComponent.scss";
-import ItemDescription from "./ItemDescription";
-import ItemImages from "./ItemImages";
+import './Item.scss';
+import ItemDescription from './ItemDescription';
+import ItemImages from './ItemImages';
 
-const ItemComponent = () => {
+const Item = () => {
   return (
     <div className="main-container">
       <div>
@@ -23,4 +23,4 @@ const ItemComponent = () => {
   );
 };
 
-export default ItemComponent;
+export default Item;

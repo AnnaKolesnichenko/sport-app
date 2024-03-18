@@ -1,10 +1,10 @@
-import "./ItemDescription.scss";
+import './ItemDescription.scss';
 
-import ItemInfo from "./ItemInfo";
-import Button from "../../UI/Button";
-import Icons from "../../UI/Icons";
-import { Circle, Square } from "./Square";
-import { IoIosArrowUp } from "react-icons/io";
+import ItemInfo from './ItemInfo';
+import Button from '../../UI/Button';
+import Icons from '../../UI/Icons';
+import { Circle, Square } from './Square';
+import { IoIosArrowUp } from 'react-icons/io';
 
 const ItemDescription = () => {
   const squares = () => {
@@ -25,7 +25,7 @@ const ItemDescription = () => {
         <p>оберіть розмір</p>
         <ul>{squares()}</ul>
         <p>оберіть колір</p>
-        <ul style={{ marginBottom: "0px" }}>
+        <ul style={{ marginBottom: '0px' }}>
           <Circle color="white" border="1px solid black" />
           <Circle color="#959595" />
           <Circle color="#343434" />
@@ -46,7 +46,7 @@ const ItemDescription = () => {
             backgroundColor="white"
           />
         </div>
-        <div style={{ paddingTop: "17px" }}>
+        <div style={{ paddingTop: '17px' }}>
           <Icons />
         </div>
       </div>

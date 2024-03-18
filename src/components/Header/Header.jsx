@@ -1,6 +1,6 @@
-import Icons from "../../UI/Icons";
-import "./Header.scss";
-import search from "../../images/search.svg";
+import Icons from '../../UI/Icons';
+import './Header.scss';
+import search from '../../images/search.svg';
 // import { RiSearch2Line } from "react-icons/ri";
 
 const Header = () => {
@@ -35,7 +35,7 @@ const Header = () => {
       <div className="navigation">
         <div className="logo">
           <a href="/">IGNAT</a>
-        </div>{" "}
+        </div>{' '}
         <div>
           <nav>
             <ul className="menu-items">

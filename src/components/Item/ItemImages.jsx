@@ -1,9 +1,9 @@
-import "./ItemImages.scss";
+import './ItemImages.scss';
 
-import main from "../../images/main.jpg";
-import item1 from "../../images/list-1.jpg";
-import item2 from "../../images/list-2.jpg";
-import item3 from "../../images/list-3.jpg";
+import main from '../../images/main.jpg';
+import item1 from '../../images/list-1.jpg';
+import item2 from '../../images/list-2.jpg';
+import item3 from '../../images/list-3.jpg';
 
 const ItemImages = () => {
   return (
