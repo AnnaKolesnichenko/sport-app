@@ -2,9 +2,9 @@ import React from 'react';
 
 const ContactsCenter = () => {
   return (
-    <div>
+    <div className="info-list">
       <p>Контакт - центр</p>
-      <ul>
+      <ul className="info">
         {' '}
         <li>
           <p>098 900 09 09 </p>

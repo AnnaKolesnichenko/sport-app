@@ -1,21 +1,23 @@
+@import '../../styles/variables.scss';
+
 .main-container {
   padding: 0 98px;
   padding-top: 20px;
 }
 
 .filter-items {
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-family-main;
   font-size: 14px;
   text-transform: uppercase;
   margin-bottom: 17px;
 }
 
 .light {
-  color: #959595;
+  color: $black-40;
 }
 
 .dark {
-  color: #626262;
+  color: $black-60;
 }
 
 .item-description {

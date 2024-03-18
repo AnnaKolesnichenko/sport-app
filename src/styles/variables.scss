@@ -1,0 +1,25 @@
+$black-100: #000000;
+$black-80: #343434;
+$black-60: #626262;
+$black-40: #959595;
+$grey-00: #cccccc;
+$white: #ffffff;
+$black-10: #e8e8e8;
+$green: #4aaa4e;
+$font-family-main: 'Roboto', sans-serif;
+
+.list-reset {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,27 +1,27 @@
 import React from 'react';
 
-const PersonalCabinet = () => {
+const About = () => {
   return (
     <div className="info-list">
       {' '}
-      <p>Особистий кабінет</p>
+      <p>Про компанію</p>
       <ul className="info">
         {' '}
         <li>
-          <p>Мої дані </p>
+          <p>Про нас </p>
         </li>
         <li>
-          <p>Історія замовлень</p>
+          <p>Новини</p>
         </li>
         <li>
-          <p>Улюблені</p>
+          <p>Стати партнером</p>
         </li>
         <li>
-          <p>Розсилки</p>
+          <p>Угода користувача</p>
         </li>
       </ul>
     </div>
   );
 };
 
-export default PersonalCabinet;
+export default About;

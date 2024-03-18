@@ -1,0 +1,75 @@
+@import '../../styles/variables.scss';
+
+.contacts {
+  border-top: 1px solid $grey-00;
+}
+
+.info-list .info {
+  @extend .flex-column;
+  gap: 12px;
+}
+
+.menu {
+  padding: 40px 98px;
+  @extend .flex-row;
+  gap: 167px;
+  p {
+    color: $black-80;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    @extend .list-reset;
+
+    li p {
+      margin: 0;
+      font-family: $font-family-main;
+      font-size: 16px;
+      font-weight: 400;
+      color: $black-60;
+    }
+  }
+}
+
+.call-menu {
+  @extend .flex-row;
+  gap: 51px;
+}
+
+.buyer-menu {
+  @extend .flex-row;
+  gap: 138px;
+}
+
+.info-list .info .contact-icons ul {
+  gap: 20px;
+  img {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.footer-contacts {
+  padding: 38px 98px;
+  @extend .flex-row;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: $black-80;
+  box-sizing: content-box;
+  li a,
+  p {
+    margin: 0;
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 400;
+    color: #d9d9d9;
+  }
+}
+.footer {
+  @extend .flex-row;
+  @extend .list-reset;
+  gap: 30px;
+  padding: 98px;
+}

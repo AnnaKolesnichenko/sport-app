@@ -1,6 +1,7 @@
+@import '../../styles/variables.scss';
+
 header {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   width: 100%;
   margin: 0 auto;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
@@ -9,12 +10,11 @@ header {
 .authentication {
   padding-right: 98px;
   padding-left: 98px;
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
   justify-content: space-between;
   align-items: center;
   height: 40px;
-  background-color: #343434;
+  background-color: $black-80;
   box-sizing: content-box;
 }
 
@@ -23,30 +23,23 @@ span {
   color: #d9d9d9;
   text-decoration: none;
   font-size: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-family-main;
 }
 
 .help-section ul {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
+  @extend .list-reset;
   gap: 23px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .auth ul {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
+  @extend .list-reset;
   gap: 2px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .navigation {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
   align-items: center;
   height: 65px;
   padding: 0 98px;
@@ -61,36 +54,30 @@ span {
   text-transform: uppercase;
   line-height: 58px;
   letter-spacing: -2px;
-  color: #343434;
+  color: $black-80;
 }
 
 nav {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
   align-items: center;
 }
 
 .menu-items {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
+  @extend .list-reset;
   gap: 30px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
   margin-right: 180px;
-  //width: 428px;
 
   li a {
-    font-size: 14px;
-    color: #343434;
-    text-transform: uppercase;
+    font-size: 16px;
+    color: $black-80;
+    //text-transform: uppercase;
     font-weight: 400;
   }
 }
 
 .extra-nav {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
   align-items: center;
   position: relative;
   width: 370px;
@@ -103,10 +90,9 @@ nav {
     height: 40px;
     margin-right: 20px;
     box-sizing: border-box;
-    background-color: #e8e8e8;
+    background-color: $black-10;
     border: none;
     border-radius: 15px;
-    //padding: 9px;
   }
 }
 
@@ -117,22 +103,5 @@ nav {
   width: 24px;
   height: 24px;
   stroke-width: 0;
-  color: #343434;
+  color: $black-80;
 }
-
-// .icons {
-//   display: flex;
-//   flex-direction: row;
-//   gap: 20px;
-//   list-style: none;
-//   margin: 0;
-//   padding: 0;
-// }
-
-// .icon {
-//   //display: inline-block;
-//   width: 24px;
-//   height: 24px;
-//   stroke-width: 0;
-//   color: #343434;
-// }

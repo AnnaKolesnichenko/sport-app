@@ -1,54 +1,50 @@
+@import '../../styles/variables.scss';
+
 .container {
   padding: 0 98px;
   padding-top: 78px;
 
   .review-about {
-    display: flex;
-    flex-direction: row;
+    @extend .flex-row;
     justify-content: space-between;
     align-items: center;
   }
 
   .reviews-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-family-main;
     font-size: 26px;
     font-weight: 500;
 
     span {
-      font-family: 'Roboto', sans-serif;
+      font-family: $font-family-main;
       font-size: 15px;
       font-weight: 300;
-      color: #959595;
+      color: $black-40;
     }
   }
 }
 
 .pagination {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
 
   span {
     margin-right: 30px;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-family-main;
     font-weight: 400;
-    color: #343434;
+    color: $black-80;
   }
 
   div {
-    display: flex;
-    flex-direction: row;
+    @extend .flex-row;
     gap: 10px;
   }
 }
 
 .reviews {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
+  @extend .list-reset;
   gap: 30px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .plus {

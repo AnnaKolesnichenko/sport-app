@@ -1,3 +1,5 @@
+@import '../../styles/variables.scss';
+
 .favs-container {
   padding: 0 98px;
   padding-top: 78px;
@@ -7,24 +9,20 @@
     margin: 0;
     margin-bottom: 19px;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-family-main;
     font-weight: 500;
     // text-transform: uppercase;
   }
 }
 
 .favs-list {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
+  @extend .list-reset;
   gap: 30px;
-  margin: 0;
-  padding: 0;
-  list-style: none;
 }
 
 .arrow-down {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   align-items: center;
   justify-content: center;
   gap: 5px;
@@ -37,10 +35,10 @@
   p {
     margin: 0;
     margin-top: 60px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-family-main;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #626262;
+    color: $black-60;
   }
 }

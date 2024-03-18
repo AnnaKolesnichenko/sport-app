@@ -2,9 +2,9 @@ import React from 'react';
 
 const ForConsumers = () => {
   return (
-    <div>
+    <div className="info-list">
       <p>Покупцям</p>
-      <ul>
+      <ul className="info">
         {' '}
         <li>
           <p>Оплата і доставка </p>

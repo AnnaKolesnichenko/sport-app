@@ -1,13 +1,14 @@
+@import '../../styles/variables.scss';
+
 .description {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   position: relative;
 
   p {
     margin: 0;
-    color: #626262;
+    color: $black-60;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-family-main;
     font-weight: 400;
     text-transform: uppercase;
   }
@@ -16,20 +17,17 @@
     margin: 0;
     margin-top: 18px;
     margin-bottom: 18px;
-    color: #4aaa4e;
+    color: $green;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: $font-family-main;
     font-weight: 600;
     //text-transform: uppercase;
   }
 
   ul {
-    display: flex;
-    flex-direction: row;
+    @extend .flex-row;
+    @extend .list-reset;
     gap: 10px;
-    margin: 0;
-    padding: 0;
-    list-style: none;
     margin-top: 10px;
     margin-bottom: 21px;
   }
@@ -37,12 +35,11 @@
 
 .title {
   margin: 0;
-  //margin-top: 10px;
   margin-bottom: 5px;
-  color: #343434;
+  color: $black-80;
   font-size: 24px;
   font-weight: 500;
-  font-family: 'Roboto', sans-serif;
+  font-family: $font-family-main;
   text-transform: uppercase;
 }
 
@@ -53,17 +50,15 @@
 }
 
 .order-part {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
   gap: 20px;
   align-items: center;
   margin-top: 50px;
-  border-top: 1px solid #cccccc;
+  border-top: 1px solid $grey-00;
 }
 
 .button-container {
-  display: flex;
-  flex-direction: row;
+  @extend .flex-row;
   gap: 30px;
   padding-top: 17px;
 }
