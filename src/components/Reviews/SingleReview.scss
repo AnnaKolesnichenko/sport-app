@@ -16,6 +16,15 @@
   }
 }
 
+.text {
+  p {
+    font-family: $font-family-main;
+    font-size: 16px;
+    font-weight: 400;
+    color: $black-40;
+  }
+}
+
 .review-auth {
   @extend .flex-row;
   gap: 20px;
@@ -29,6 +38,7 @@
     font-family: $font-family-main;
     font-size: 16px;
     font-weight: 500;
+    color: $black-100;
   }
 }
 
