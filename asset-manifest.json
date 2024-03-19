@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/sport-app/static/css/main.7b277f02.css",
+    "main.css": "/sport-app/static/css/main.487cae35.css",
     "main.js": "/sport-app/static/js/main.f154631d.js",
     "static/media/main.jpg": "/sport-app/static/media/main.40556be4002246773099.jpg",
     "static/media/fav_man1.jpg": "/sport-app/static/media/fav_man1.1747a6224799532e88b0.jpg",
@@ -14,11 +14,11 @@
     "static/media/chevrons-down.svg": "/sport-app/static/media/chevrons-down.b98d0a0e1a2354c904f37904edabc976.svg",
     "static/media/Arrow_1.svg": "/sport-app/static/media/Arrow_1.55335432f62b14f0750b8ff238c17f8e.svg",
     "static/media/Arrow_2.svg": "/sport-app/static/media/Arrow_2.2dd36e8e4aa5e945f48ba8af0b5ce0c6.svg",
-    "main.7b277f02.css.map": "/sport-app/static/css/main.7b277f02.css.map",
+    "main.487cae35.css.map": "/sport-app/static/css/main.487cae35.css.map",
     "main.f154631d.js.map": "/sport-app/static/js/main.f154631d.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b277f02.css",
+    "static/css/main.487cae35.css",
     "static/js/main.f154631d.js"
   ]
 }
