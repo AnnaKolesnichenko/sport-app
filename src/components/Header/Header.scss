@@ -2,13 +2,13 @@
 
 header {
   @extend .flex-column;
-  width: 100%;
+  max-width: 100vw;
   margin-right: auto;
-  margin-left: auto;
   box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
 }
 
 .authentication {
+  max-width: 1366px;
   padding-right: 98px;
   padding-left: 98px;
   @extend .flex-row;
@@ -17,6 +17,16 @@ header {
   height: 40px;
   background-color: $black-80;
   box-sizing: content-box;
+}
+
+.navigation {
+  @extend .flex-row;
+  max-width: 1366px;
+  align-items: center;
+  height: 65px;
+  padding: 0 98px;
+  box-sizing: border-box;
+  flex-grow: 1;
 }
 
 a,
@@ -37,14 +47,6 @@ span {
   @extend .flex-row;
   @extend .list-reset;
   gap: 2px;
-}
-
-.navigation {
-  @extend .flex-row;
-  align-items: center;
-  height: 65px;
-  padding: 0 98px;
-  box-sizing: border-box;
 }
 
 .logo a {
@@ -70,9 +72,9 @@ nav {
   margin-right: 180px;
 
   li a {
-    font-size: 16px;
+    font-size: 14px;
     color: $black-80;
-    //text-transform: uppercase;
+    text-transform: uppercase;
     font-weight: 400;
   }
 }
